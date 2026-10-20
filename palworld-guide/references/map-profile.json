@@ -1,0 +1,24 @@
+{
+  "id": "paldb-main-map8-z3-2026-10-19",
+  "map_id": "palpagos-main",
+  "source_page": "https://paldb.cc/en/Palpagos_Islands",
+  "source_data": "https://paldb.cc/js/map_data_en.js",
+  "source_renderer": "https://paldb.cc/js/map.485696ceabdcee9f.js",
+  "reviewed_on": "2026-10-19",
+  "raw_bounds": {
+    "x_min": -1099400,
+    "x_max": 349400,
+    "y_min": -724400,
+    "y_max": 724400
+  },
+  "raw_offsets": [
+    582888,
+    301000
+  ],
+  "units_per_game_coordinate": 459,
+  "tile_template": "https://cdn.paldb.cc/image/map8/z3x{x}y{y}.webp",
+  "tile_size": 512,
+  "tiles_per_axis": 8,
+  "axis_note": "UE Y maps to game X; UE X maps to game Y. North is upward on tiles.",
+  "scope": "Main map only. World Tree interiors need a separate calibration."
+}

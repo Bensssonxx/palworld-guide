@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "question": "Synthetic example: plan Pyrin from supplied species",
+  "language": "en",
+  "context": {"owned_pals": ["Bushi", "Penking", "Vanwyrm"]},
+  "assumptions": [],
+  "missing_information": [],
+  "steps": [{"id":"breed","tool":"breed","arguments":{"target":"Pyrin","owned":["Bushi","Penking","Vanwyrm"]}}]
+}

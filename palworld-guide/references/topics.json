@@ -1,0 +1,82 @@
+{
+  "mining": {
+    "label": "Mining & handiwork",
+    "example": "Find an obtainable mining Pal for my current stage, with its acquisition route.",
+    "checks": [
+      "Separate wild, Alpha, breeding and egg routes",
+      "Keep listed and four-star work levels separate",
+      "Distinguish base work from manual party gathering"
+    ],
+    "query": "Palworld {version} {goal} mining handiwork acquisition"
+  },
+  "mount": {
+    "label": "Ground mounts",
+    "example": "I am level 52. Compare a replacement for Fenglope by ride sprint speed, stamina and saddle technology.",
+    "checks": [
+      "Compare ride sprint rather than base run speed",
+      "Check saddle technology and acquisition separately",
+      "Show speed/stamina tradeoffs"
+    ],
+    "query": "Palworld {version} {goal} ground mount ride sprint speed stamina saddle"
+  },
+  "map": {
+    "label": "Locations & dungeons",
+    "example": "Find coal near fast travel and mark five sourced points on a real map.",
+    "checks": [
+      "Use sourced game coordinates",
+      "Separate dungeon entrances, camp anchors and interior rewards",
+      "Check map calibration and point status"
+    ],
+    "query": "Palworld {version} {goal} map coordinates fast travel dungeon"
+  },
+  "loot": {
+    "label": "Loot & farming",
+    "example": "Compare a camp-to-treasure-map route with a direct schematic farm; verify conditional rates and timing.",
+    "checks": [
+      "Identify the exact item quality and reward table",
+      "Weights are not automatically percentages",
+      "Separate conditional stage rates from retry independence"
+    ],
+    "query": "Palworld {version} {goal} schematic reward table respawn"
+  },
+  "base": {
+    "label": "Base & offline care",
+    "example": "On a dedicated server my Pals are hungry and ill the next day. First distinguish empty food boxes from inaccessible food.",
+    "checks": [
+      "Inspect food availability first",
+      "Separate continuous operation, pathfinding and offline behavior",
+      "Hunger settings do not treat existing illness"
+    ],
+    "query": "Palworld {version} {goal} dedicated server hunger SAN"
+  },
+  "mods": {
+    "label": "Mods & multiplayer",
+    "example": "I subscribed on my PC but cannot see the mod on my dedicated server. Check client/server requirements.",
+    "checks": [
+      "Identify OS, package and installation method",
+      "Inspect author requirements, dependencies and Info.json",
+      "Distinguish subscription, deployment, loading and gameplay effect"
+    ],
+    "query": "Palworld {version} {goal} dedicated server mod Info.json IsServer"
+  },
+  "items": {
+    "label": "Items & progression",
+    "example": "Explain this weapon or sphere launcher using its exact ammo, unlock and effect fields.",
+    "checks": [
+      "Resolve the exact English item before lookup",
+      "Do not assume ammo compatibility or burst count",
+      "Separate player stats, Pal stats and party/base limits"
+    ],
+    "query": "Palworld {version} {goal} weapon ammo technology partner skill"
+  },
+  "breeding": {
+    "label": "Breeding & owned Pals",
+    "example": "Use my Bushi, Penking and Vanwyrm to find a species-level breeding route to Pyrin. Show the parent steps and source version.",
+    "checks": [
+      "Use pinned explicit parent records rather than remembered combinations",
+      "Confirm parent sexes and breeding setup separately",
+      "Do not equate fewest generations with fewest eggs or shortest real time"
+    ],
+    "query": "Palworld {version} {goal} breeding owned pals"
+  }
+}

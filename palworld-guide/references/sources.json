@@ -1,0 +1,223 @@
+{
+  "reviewed_on": "2026-10-20",
+  "note": "Priorities depend on the question: official specifications, provider operations, maintained mod guidance, community data and maps. An entry is not verification of every value.",
+  "sources": [
+    {
+      "id": "official-mods",
+      "title": "Official: Installing Mods on a Server",
+      "url": "https://docs.palworldgame.com/settings-and-operation/mod/",
+      "kind": "official",
+      "topics": [
+        "mods"
+      ],
+      "observed_version": "1.0.4",
+      "scope": "Windows Workshop deployment, PackageName and server-install flags; recheck current support.",
+      "priority": 10
+    },
+    {
+      "id": "official-config",
+      "title": "Official: Configuration parameters",
+      "url": "https://docs.palworldgame.com/settings-and-operation/configuration/",
+      "kind": "official",
+      "topics": [
+        "base",
+        "mods",
+        "server"
+      ],
+      "observed_version": "1.0.4",
+      "scope": "Configuration locations and parameter meanings. Drop quantity is separate from rare-item probability.",
+      "priority": 10
+    },
+    {
+      "id": "official-loader",
+      "title": "Pocketpair: Mod Loader Technical Details",
+      "url": "https://github.com/pocketpairjp/PalworldModUploader/blob/main/PalworldModUploader/docs/en/04-Tech.md",
+      "kind": "official",
+      "topics": [
+        "mods"
+      ],
+      "observed_version": null,
+      "scope": "Official loader behavior; also inspect the particular author compatibility statement.",
+      "priority": 11
+    },
+    {
+      "id": "paldb-mining",
+      "title": "PalDB: Mining",
+      "url": "https://paldb.cc/en/Mining",
+      "kind": "community-data",
+      "topics": [
+        "mining"
+      ],
+      "observed_version": null,
+      "scope": "Listed and four-star suitability columns; not a capture-difficulty ranking.",
+      "priority": 30
+    },
+    {
+      "id": "paldb-handiwork",
+      "title": "PalDB: Handiwork",
+      "url": "https://paldb.cc/en/Handiwork",
+      "kind": "community-data",
+      "topics": [
+        "mining"
+      ],
+      "observed_version": null,
+      "scope": "Work-suitability table; actual acquisition and throughput need separate evidence.",
+      "priority": 30
+    },
+    {
+      "id": "paldb-mounts",
+      "title": "PalDB: Mounts",
+      "url": "https://paldb.cc/en/Mounts",
+      "kind": "community-data",
+      "topics": [
+        "mount"
+      ],
+      "observed_version": null,
+      "scope": "Run speed, ride sprint, stamina and technology fields; not guaranteed player access.",
+      "priority": 30
+    },
+    {
+      "id": "paldb-map",
+      "title": "PalDB: Palpagos Islands Map",
+      "url": "https://paldb.cc/en/Palpagos_Islands",
+      "kind": "community-data",
+      "topics": [
+        "map",
+        "mining",
+        "loot"
+      ],
+      "observed_version": null,
+      "scope": "Community map records. Preserve point IDs, projection and retrieval metadata.",
+      "priority": 30
+    },
+    {
+      "id": "palworld-map",
+      "title": "Palworld.gg: Interactive map",
+      "url": "https://palworld.gg/map",
+      "kind": "community-map",
+      "topics": [
+        "map"
+      ],
+      "observed_version": null,
+      "scope": "Alternative community map; verify the requested marker and available filters.",
+      "priority": 40
+    },
+    {
+      "id": "paldb-home",
+      "title": "PalDB: English database",
+      "url": "https://paldb.cc/en/",
+      "kind": "community-data",
+      "topics": [
+        "mining",
+        "mount",
+        "map",
+        "loot",
+        "base",
+        "mods",
+        "items",
+        "breeding"
+      ],
+      "observed_version": null,
+      "scope": "Resolve specific Pals, items, reward containers and acquisition sections.",
+      "priority": 30
+    },
+    {
+      "id": "official-packaging",
+      "title": "Pocketpair: Mod Package Specification",
+      "url": "https://github.com/pocketpairjp/PalworldModUploader/blob/main/PalworldModUploader/docs/en/02-Package.md",
+      "kind": "official",
+      "priority": 10,
+      "topics": [
+        "mods"
+      ],
+      "observed_version": null,
+      "scope": "PackageName, dependencies, revision and installation-rule definitions."
+    },
+    {
+      "id": "modding-workshop-help",
+      "title": "Palworld Modding Wiki: Workshop troubleshooting",
+      "url": "https://pwmodding.wiki/docs/users/workshop/troubleshooting",
+      "kind": "community-maintainer-docs",
+      "priority": 20,
+      "topics": [
+        "mods"
+      ],
+      "observed_version": null,
+      "scope": "Community-maintained loader and Workshop troubleshooting, not Pocketpair documentation."
+    },
+    {
+      "id": "broccoli-guide",
+      "title": "indifferent broccoli: Palworld guides",
+      "url": "https://wiki.indifferentbroccoli.com/Palworld",
+      "kind": "hosting-provider",
+      "priority": 15,
+      "topics": [
+        "base",
+        "mods"
+      ],
+      "observed_version": null,
+      "scope": "Provider-specific panel instructions; dynamic fields require opening the current guide."
+    },
+    {
+      "id": "official-updates",
+      "title": "Palworld: Official Steam update feed",
+      "url": "https://store.steampowered.com/news/app/1623730",
+      "kind": "official-news-entry",
+      "priority": 12,
+      "topics": [
+        "mining",
+        "mount",
+        "map",
+        "loot",
+        "base",
+        "mods",
+        "items",
+        "breeding"
+      ],
+      "observed_version": null,
+      "scope": "Version-change entry point; open the exact announcement before citing a rule."
+    },
+    {
+      "id": "palcalc-data",
+      "title": "PalCalc: MIT-licensed breeding records",
+      "url": "https://github.com/tylercamp/palcalc",
+      "kind": "open-source-dataset",
+      "topics": [
+        "breeding",
+        "mining",
+        "mount"
+      ],
+      "priority": 10,
+      "observed_version": "dataset v28, not a game-version claim",
+      "scope": "Pinned species and explicit breeding records are bundled with MIT notice; the full upstream solver is not executed."
+    },
+    {
+      "id": "paldbgg-api",
+      "title": "PalDB.gg: documented public JSON API",
+      "url": "https://paldb.gg/developers/",
+      "kind": "community-api",
+      "topics": [
+        "breeding",
+        "items",
+        "mining",
+        "mount",
+        "loot"
+      ],
+      "priority": 15,
+      "observed_version": null,
+      "scope": "Versioned Pal/item/pair records with attribution; independent of PalDB.cc. Actual recipe rows are cross-checked before totals."
+    },
+    {
+      "id": "official-server-platforms",
+      "title": "Official: About servers",
+      "url": "https://docs.palworldgame.com/getting-started/about-server/",
+      "kind": "official",
+      "topics": [
+        "server"
+      ],
+      "observed_version": null,
+      "scope": "Current platform support and community-server requirements; read exact current page and retain version scope.",
+      "priority": 10
+    }
+  ]
+}

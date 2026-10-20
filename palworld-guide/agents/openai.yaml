@@ -1,0 +1,4 @@
+interface:
+  display_name: "Palworld Guide"
+  short_description: "Use breeding data and game APIs for practical Palworld shortcuts"
+  default_prompt: "Use $palworld-guide and its built-in integrations to turn my current Pals or target item into sourced steps and missing materials."
