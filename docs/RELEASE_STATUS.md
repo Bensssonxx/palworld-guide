@@ -1,15 +1,15 @@
 # Release status — 0.11.0-beta.2
 
-Public upload authorized by the owner on 2026-10-20 to `Bensssonxx/palworld-guide`, with MIT for original code/documentation. Upload and remote CI are in progress; the final commit/run evidence will be recorded after completion. No tagged release, deployment or external invitation is part of this upload.
+Source is publicly available at [Bensssonxx/palworld-guide](https://github.com/Bensssonxx/palworld-guide), under the owner-confirmed MIT license for original code/documentation. The first source commit passed all nine CI jobs; see [the exact CI evidence](CI.md). No tagged release, hosted website, external invitation or live game/server change is part of this upload.
 
-| Stage | Completed locally | Remaining gate |
+| Stage | Completed | Remaining scope |
 |---|---|---|
-| Independent repository | Curated portable source, examples, tests; private workspace and QA excluded | Public destination confirmed; upload reviewed source |
-| Installation/use | Actual source-ZIP installation in fresh projects and Codex CLI homes; English instructions and troubleshooting | Other hosts and operating systems need actual trials |
-| Licenses/data | Confirmed original-code MIT; pinned upstream notice; unclear bulk community snapshots/assets omitted | Preserve third-party notices and distribution exclusions |
-| Release checks | 70 public Python tests, deterministic archives/checksums, bounded hygiene checks, clean-install smoke and CI configuration | Run and inspect actual GitHub Actions after authorized upload |
-| Beta | Six fresh CLI sessions across three question families; real searches, failed/repaired receipts, cross-session recovery and real map/PNG inspection | External-human, other-host and in-game feedback remain separate future evidence |
+| Independent repository | Reviewed source uploaded to the public standalone repository; private workspace and QA excluded | Maintain reviewed commits and source-only distribution |
+| Installation/use | Source-ZIP installation in fresh projects and Codex CLI homes; English installation/troubleshooting docs | Other assistant hosts need actual trials |
+| Licenses/data | MIT confirmed; GitHub recognizes MIT; pinned upstream notice and third-party exclusions preserved | Review any future data/image redistribution separately |
+| Release checks | 70 tests, source checks, package build and fresh-install smoke passed on Linux/macOS/Windows × Python 3.11/3.12/3.13 | Latest commit status remains visible in Actions |
+| Beta | Six fresh CLI sessions, real searches, failed/repaired receipts, cross-session recovery and real map/PNG inspection | External-human, other-host and in-game feedback remain future evidence |
 
-See [the full Beta report](INDEPENDENT_BETA.md), [validation](VALIDATION.md) and [upload preparation](GITHUB_PREPARATION.md). The final source diff and distribution manifest should be reviewed before the first upload.
+See [the full Beta report](INDEPENDENT_BETA.md), [validation](VALIDATION.md), [CI evidence](CI.md) and [publication checklist](GITHUB_PREPARATION.md).
 
-Useful partial answers are preserved for unsupported exact weapon counts and console password behavior. Trace auditing matches logged operations; it does not certify source truth, excerpt fidelity or runtime compatibility. Core Python tools need the standard library; optional PNG export requires an existing compatible renderer environment. Only the main map is calibrated.
+Useful partial answers remain for unsupported exact weapon counts and console password behavior. Trace auditing matches logged operations; it does not certify source truth, excerpt fidelity or runtime compatibility. Core Python tools need the standard library; optional PNG export requires an existing compatible renderer environment. Only the main map is calibrated.

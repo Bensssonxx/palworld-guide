@@ -1,6 +1,6 @@
 # Fresh-session Beta — 2026-10-20
 
-Candidate: `0.11.0-beta.2`. Six fresh Codex CLI conversations exercised three question families, with repairs and repeats. These are six sessions, not six independent users or a broad gameplay-accuracy benchmark.
+Historical trial candidate: `0.11.0-beta.2`. Subsequent public upload and hosted-runner CI are recorded in [release status](RELEASE_STATUS.md) and [CI evidence](CI.md). Six fresh Codex CLI conversations exercised three question families, with repairs and repeats. These are six sessions, not six independent users or a broad gameplay-accuracy benchmark.
 
 ## Environment and independence
 
@@ -38,4 +38,4 @@ One final trace-counter repair occurred after the fresh CLI recovery run: a batc
 
 Exact launcher projectiles per trigger and console-specific password behavior remain unresolved. Some inherited server excerpts/timestamps were not independently reread; the resumed answer labels that limitation. Page-open auditing proves logged operations, not whether all statements follow from the pages. The host still reviews semantics, compound coverage, map appearance and player feasibility. A source-order node list may need an explicit cluster interpretation to describe distinct destinations.
 
-No external-human feedback, different assistant host, real Windows/Linux execution, remote GitHub Actions or in-game/server validation is established. The candidate is suitable for controlled Beta distribution after destination/license review; it is not a stable release or universal answer guarantee. Detailed raw QA stays local and is excluded from this repository/package.
+At the time of these fresh CLI trials, no external-human feedback, different assistant host, Windows/Linux execution, remote GitHub Actions or in-game/server validation had been established. Subsequent [remote CI](CI.md) establishes offline script/package execution on its matrix runners; the other limitations remain. The owner has since confirmed the public destination and MIT license; the candidate is suitable for controlled Beta distribution; it is not a stable release or universal answer guarantee. Detailed raw QA stays local and is excluded from this repository/package.
